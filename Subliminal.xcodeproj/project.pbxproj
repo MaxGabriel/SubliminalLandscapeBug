@@ -35,6 +35,8 @@
 		2C903BC217F525E700555317 /* SLSwitchTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C903BBF17F525E700555317 /* SLSwitchTestViewController.xib */; };
 		2CE9AA4C17E3A747007EF0B5 /* SLSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE9AA4A17E3A747007EF0B5 /* SLSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE9AA4D17E3A747007EF0B5 /* SLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9AA4B17E3A747007EF0B5 /* SLSwitch.m */; };
+		5068400418CD1C3E00248ABA /* LandscapeBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5068400318CD1C3E00248ABA /* LandscapeBugViewController.m */; };
+		5068400618CD1E4000248ABA /* LandscapeBugTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5068400518CD1E4000248ABA /* LandscapeBugTest.m */; };
 		50A59BD617848D67002A863A /* SLGeometryUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A59BD517848D67002A863A /* SLGeometryUnitTests.m */; };
 		50A59BD81784908D002A863A /* SLGeometryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A59BD71784908D002A863A /* SLGeometryTest.m */; };
 		50A59BDB178490C2002A863A /* SLGeometryTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A59BDA178490C2002A863A /* SLGeometryTestViewController.m */; };
@@ -259,6 +261,9 @@
 		2C903BBF17F525E700555317 /* SLSwitchTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSwitchTestViewController.xib; sourceTree = "<group>"; };
 		2CE9AA4A17E3A747007EF0B5 /* SLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSwitch.h; sourceTree = "<group>"; };
 		2CE9AA4B17E3A747007EF0B5 /* SLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSwitch.m; sourceTree = "<group>"; };
+		5068400218CD1C3E00248ABA /* LandscapeBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeBugViewController.h; sourceTree = "<group>"; };
+		5068400318CD1C3E00248ABA /* LandscapeBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeBugViewController.m; sourceTree = "<group>"; };
+		5068400518CD1E4000248ABA /* LandscapeBugTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeBugTest.m; sourceTree = "<group>"; };
 		50A59BD517848D67002A863A /* SLGeometryUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGeometryUnitTests.m; sourceTree = "<group>"; };
 		50A59BD71784908D002A863A /* SLGeometryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGeometryTest.m; sourceTree = "<group>"; };
 		50A59BDA178490C2002A863A /* SLGeometryTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGeometryTestViewController.m; sourceTree = "<group>"; };
@@ -483,6 +488,16 @@
 				2C903BBF17F525E700555317 /* SLSwitchTestViewController.xib */,
 			);
 			name = "SLSwitch Tests";
+			sourceTree = "<group>";
+		};
+		5068400118CD1C0E00248ABA /* Landscape Bug */ = {
+			isa = PBXGroup;
+			children = (
+				5068400218CD1C3E00248ABA /* LandscapeBugViewController.h */,
+				5068400318CD1C3E00248ABA /* LandscapeBugViewController.m */,
+				5068400518CD1E4000248ABA /* LandscapeBugTest.m */,
+			);
+			name = "Landscape Bug";
 			sourceTree = "<group>";
 		};
 		50A59BD317848CEE002A863A /* SLGeometry Tests */ = {
@@ -842,6 +857,7 @@
 		F0AC80BE16BB542400C5D5C0 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5068400118CD1C0E00248ABA /* Landscape Bug */,
 				DB2627D817B96704009DA3A6 /* SLStatusBar Tests */,
 				50A59BD317848CEE002A863A /* SLGeometry Tests */,
 				F07DA31F16E439B7004C2282 /* SLAlert Tests */,
@@ -1222,6 +1238,7 @@
 				2C903BC017F525E700555317 /* SLSwitchTest.m in Sources */,
 				F0AC80A016BB299500C5D5C0 /* main.m in Sources */,
 				F0AC80A416BB299500C5D5C0 /* SLIntegrationTestsAppDelegate.m in Sources */,
+				5068400418CD1C3E00248ABA /* LandscapeBugViewController.m in Sources */,
 				F0AC80BD16BB50FF00C5D5C0 /* SLTestsViewController.m in Sources */,
 				F0AC80C416BC355D00C5D5C0 /* SLTerminalTest.m in Sources */,
 				F0AC80C116BB559F00C5D5C0 /* SLIntegrationTest.m in Sources */,
@@ -1240,6 +1257,7 @@
 				F07DA32D16E43AD3004C2282 /* SLAlertTest.m in Sources */,
 				F07DA32E16E43AD3004C2282 /* SLAlertTestViewController.m in Sources */,
 				2C903BC117F525E700555317 /* SLSwitchTestViewController.m in Sources */,
+				5068400618CD1E4000248ABA /* LandscapeBugTest.m in Sources */,
 				F01EBC9B170115B100FF6A7C /* SLTextFieldTest.m in Sources */,
 				F01EBC9C170115B100FF6A7C /* SLTextFieldTestViewController.m in Sources */,
 				F077D70D16D9D77900908FF5 /* SLElementVisibilityTest.m in Sources */,
